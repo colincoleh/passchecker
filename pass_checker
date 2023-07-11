@@ -43,7 +43,7 @@ def main():
     elif result >= 2:
         print("Strong password")
 
-# Ensures that Main() is only run when this file is the main program or run from the command line. Since the name will not be __main__ if this script is imported rather than run directly, it will not be able to 
-access Main(), which is appropriate in that context.
+# Ensures that main is only run when this file is the main program or run from the command line. Since the name will not be __main__ if this script is imported rather than run directly, it will not be able to 
+# access main, which is appropriate in that context.
 if __name__ == "__main__":
     main()
